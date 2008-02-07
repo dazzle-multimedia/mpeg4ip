@@ -13,7 +13,7 @@ dnl Detect the canonical host and target build environment
 AC_CANONICAL_HOST
 AC_CANONICAL_TARGET
 
-AM_INIT_AUTOMAKE([1.5 no-define])
+AM_INIT_AUTOMAKE([1.10 no-define])
 
 dnl Checks for programs. 
 
