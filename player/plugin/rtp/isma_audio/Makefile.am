@@ -23,7 +23,7 @@ isma_enc_rtp_plugin_la_LIBADD = \
         $(top_builddir)/lib/ismacryp/libismacryp.la @SRTPLIB@ \
         -lm
 
-INCLUDES = -I$(top_srcdir)/player/src \
+AM_CPPFLAGS = -I$(top_srcdir)/player/src \
 	   -I$(top_srcdir)/player/lib \
 	   -I$(top_srcdir)/include \
            -I$(top_srcdir)/lib/ismacryp \

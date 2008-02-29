@@ -1,7 +1,7 @@
 SUBDIRS=doc
 lib_LTLIBRARIES = libmp4.la
 
-INCLUDES = -I$(top_srcdir)/include
+AM_CPPFLAGS = -I$(top_srcdir)/include
 
 libmp4_la_SOURCES = \
 	atom.c \

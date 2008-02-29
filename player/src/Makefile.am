@@ -146,7 +146,7 @@ gmp4player_SOURCES = \
 	gui_utils.h \
 	gui_xpm.h
 
-INCLUDES = \
+AM_CPPFLAGS = \
 	-I$(top_srcdir)/include \
 	-I$(top_srcdir)/player/lib \
 	-I$(top_srcdir)/player/lib/audio \

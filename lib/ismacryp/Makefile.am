@@ -1,6 +1,6 @@
 lib_LTLIBRARIES = libismacryp.la
 
-INCLUDES=-I$(top_srcdir)/include
+AM_CPPFLAGS = -I$(top_srcdir)/include
 
 libismacryp_la_SOURCES = ismacryplib.c \
 	ismacryplib.h \

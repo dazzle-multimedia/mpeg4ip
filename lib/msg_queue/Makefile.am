@@ -6,5 +6,5 @@ libmsg_queue_la_SOURCES = \
 
 EXTRA_DIST = \
 	libmsg_queue60.dsp
-INCLUDES = -I$(top_srcdir)/include
+AM_CPPFLAGS = -I$(top_srcdir)/include
 AM_CXXFLAGS = -D_REENTRANT -DNOCONTROLS @BILLS_CPPWARNINGS@

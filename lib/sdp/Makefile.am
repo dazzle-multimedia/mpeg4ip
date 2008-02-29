@@ -12,7 +12,7 @@ libsdp_la_SOURCES = \
 
 EXTRA_DIST = libsdp60.dsp 
 
-INCLUDES = -I$(top_srcdir)/include -I$(top_srcdir)/lib/utils
+AM_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/lib/utils
 
 AM_CFLAGS = -D_REENTRANT @BILLS_CWARNINGS@
 

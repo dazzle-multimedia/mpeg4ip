@@ -1,5 +1,5 @@
 
-INCLUDES = -I$(top_srcdir)/include -I$(top_srcdir)/lib/mp4v2
+AM_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/lib/mp4v2
 
 check_PROGRAMS = c_api mp4broadcaster nullcreate nullvplayer urltrack mp4clip
 

@@ -9,7 +9,7 @@ a52_audio_plugin_la_LIBADD = \
 	$(top_builddir)/lib/mp4av/libmp4av.la 
 
 
-INCLUDES = -I$(top_srcdir)/player/src -I$(top_src_dir)/player/lib -I$(top_srcdir)/include -I$(top_srcdir)/lib -I$(top_srcdir)/lib/sdp -I$(top_srcdir)/lib/mp4v2
+AM_CPPFLAGS = -I$(top_srcdir)/player/src -I$(top_src_dir)/player/lib -I$(top_srcdir)/include -I$(top_srcdir)/lib -I$(top_srcdir)/lib/sdp -I$(top_srcdir)/lib/mp4v2
 
 AM_CFLAGS = -D_REENTRANT -fexceptions @BILLS_CWARNINGS@
 

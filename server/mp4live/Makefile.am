@@ -130,7 +130,7 @@ mp4live_SOURCES = \
 # video_1394_source
 # video_dv
 
-INCLUDES=\
+AM_CPPFLAGS=\
 	@GLIB_CFLAGS@ @GTK_CFLAGS@ \
 	-I$(top_srcdir)/include \
 	-I$(top_srcdir)/lib/mp4v2 \

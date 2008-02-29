@@ -6,7 +6,7 @@ libmpeg2_program_la_SOURCES = \
 	mpeg2ps_util.c
 
 
-INCLUDES = -I$(top_srcdir)/include -I$(top_srcdir)/lib -I$(top_srcdir)/lib/mp4av -I$(top_srcdir)/lib/mp4v2 
+AM_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/lib -I$(top_srcdir)/lib/mp4av -I$(top_srcdir)/lib/mp4v2 
 AM_CFLAGS = -D_REENTRANT @BILLS_CWARNINGS@
 AM_CXXFLAGS = -D_REENTRANT @BILLS_CPPWARNINGS@
 

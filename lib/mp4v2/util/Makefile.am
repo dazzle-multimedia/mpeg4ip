@@ -1,5 +1,5 @@
 
-INCLUDES = -I$(top_srcdir)/include -I$(top_srcdir)/lib/mp4v2 -I$(top_srcdir)/lib/mp4av
+AM_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/lib/mp4v2 -I$(top_srcdir)/lib/mp4av
 
 AM_CXXFLAGS = @BILLS_CPPWARNINGS@
 

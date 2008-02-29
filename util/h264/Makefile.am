@@ -7,7 +7,7 @@ h264_parse_SOURCES = \
 
 strip_bytes_SOURCES = strip.cpp
 
-INCLUDES = -I$(srcdir) -I$(top_srcdir)/common/video/mpeg4 -I$(top_srcdir)/lib/mp4v2 -I$(top_srcdir)/include -I$(top_srcdir)/lib -I$(top_srcdir)/lib/mp4av 
+AM_CPPFLAGS = -I$(srcdir) -I$(top_srcdir)/common/video/mpeg4 -I$(top_srcdir)/lib/mp4v2 -I$(top_srcdir)/include -I$(top_srcdir)/lib -I$(top_srcdir)/lib/mp4av 
 
 AM_CFLAGS= -D_REENTRANT @BILLS_CWARNINGS@ 
 

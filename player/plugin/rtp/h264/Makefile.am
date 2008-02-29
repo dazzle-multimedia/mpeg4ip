@@ -12,7 +12,7 @@ h264_rtp_plugin_la_LIBADD = \
 	$(top_builddir)/player/lib/mp4util/libmp4util.la \
 	-lm 
 
-INCLUDES = -I$(top_srcdir)/player/src \
+AM_CPPFLAGS = -I$(top_srcdir)/player/src \
 	   -I$(top_srcdir)/player/lib \
 	   -I$(top_srcdir)/include \
            -I$(top_srcdir)/lib \

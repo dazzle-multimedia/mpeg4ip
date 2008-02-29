@@ -11,7 +11,7 @@ libmp4util_la_SOURCES = \
 libh264util_la_SOURCES = \
 	h264_sdp.c
 
-INCLUDES = -I$(top_srcdir)/include -I$(top_srcdir)/lib -I$(top_srcdir)/lib/mp4v2
+AM_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/lib -I$(top_srcdir)/lib/mp4v2
 
 AM_CFLAGS = -D_REENTRANT @BILLS_CWARNINGS@
 

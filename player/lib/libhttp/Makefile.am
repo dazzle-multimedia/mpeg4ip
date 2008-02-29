@@ -8,7 +8,7 @@ libhttp_la_SOURCES = \
 
 libhttp_la_LIBADD = $(top_builddir)/lib/utils/libutils.la
 
-INCLUDES = -I$(top_srcdir)/include -I$(top_srcdir)/lib/utils
+AM_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/lib/utils
 
 AM_CFLAGS = -D_REENTRANT @BILLS_CWARNINGS@
 
